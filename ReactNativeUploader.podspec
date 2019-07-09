@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
 
   s.preserve_paths         = 'LICENSE', 'package.json'
   s.source_files           = '**/*.{h,m}'
-  s.exclude_files          = 'example/**/*'
+  s.exclude_files          = 'examples/**/*'
   s.dependency               'React'
 end
